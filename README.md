@@ -4,6 +4,13 @@ functions for traverse subfolders and subfiles, counting how many lines are ther
 ###Functions
 
 ```c++
+
+    typedef std::string String;
+
+    typedef std::vector<String> FileList;
+
+    typedef std::vector<String> FolderList;
+
     /**
      * @brief      { list sub level of folder under the path }
      *
